@@ -1,3 +1,4 @@
+//Data Abstraction Layer -- for ease in changing database
 const MongoClient = require('mongodb').MongoClient;
 const url ='mongodb://localhost:27017';
 let db = null;
@@ -33,7 +34,7 @@ function all() {
     })
 }
 
-//
+// detlete all users
 function deleteAll() {
     return new Promise((resolve, reject) => {
         const customers = db
