@@ -18,6 +18,6 @@ A banking application that Creates and stores users and thier balances, while pr
 ## How to install this application
 Currently - Ensure you have MongoDb Installed, and 'git clone'
 
-## Licence
+## License
 MIT
 
