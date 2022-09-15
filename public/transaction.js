@@ -1,5 +1,4 @@
 function Transaction(props) {
-  const ctx = React.useContext(UserContext);
   const [transaction, setTransaction] = React.useState("");
   const [balance, setBalance] = React.useState("");
   const [status, setStatus] = React.useState('');
@@ -8,6 +7,9 @@ function Transaction(props) {
   // sets an inital value for the context array, will utilize later for user login functionality
   let user = 0;
   const disable = (!transaction);
+
+  //TODO::  Make call to DB for the user
+  
   //retrives the balance from the context, in an editable format
   let balancectx = (user) => {
     const context = React.useContext(UserContext);

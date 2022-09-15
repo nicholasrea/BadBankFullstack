@@ -1,6 +1,5 @@
 function Form(props){
-  const [value, setValue] = React.useState('')
-
+ 
   return(
     <>
       {props.placeholder}<br/>

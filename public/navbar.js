@@ -1,4 +1,8 @@
 function NavBar(){
+
+  //TODO: Fix Responsive issues
+
+  //TODO: Add Signed In User to right hand side of NavBar +2 points
   return(
     <>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,6 +14,9 @@ function NavBar(){
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link" href="#/CreateAccount/">Create Account</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#/login/">Login</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#/deposit/">Deposit</a>
